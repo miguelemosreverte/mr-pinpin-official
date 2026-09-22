@@ -1,5 +1,11 @@
 # Publishing rules
 
+Read `LICENSE`, `CONTENT-LICENSE.md`, and `THIRD-PARTY-NOTICES.md`. MIT applies
+only to owned software, not deployed creative content, including embedded
+JS/JSON/HTML content. Preserve third-party terms, prior grants, and legal
+exceptions; do not invent rights in unprotectable AI or public-domain material.
+Never inject new notices into an immutable archive; publish a new source build.
+
 Read `README.md` first. This is `mr-pinpin/mr-pinpin.github.io`.
 Canonical readers: `https://mr-pinpin.github.io/`. The local checkout remains
 `/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-official`.

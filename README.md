@@ -21,6 +21,17 @@ This repository is [mr-pinpin/mr-pinpin.github.io](https://github.com/mr-pinpin/
 Its local checkout remains `/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-official`,
 beside `mr-pinpin-source`; the organization move does not rename either directory.
 
+## Permissions
+
+Project-owned deployment software is MIT under [LICENSE](LICENSE) and
+[LICENSE-MIT](LICENSE-MIT). Deployed stories, illustrations, media, and other
+creative content are explicitly excluded, even when embedded in code or JSON.
+[Content permissions](CONTENT-LICENSE.md) allow personal/noncommercial family
+reading, downloading, and printing only for rights the project controls.
+[Third-party terms](THIRD-PARTY-NOTICES.md), prior grants, and legal exceptions
+remain intact; no copyright is invented in public-domain or unprotectable AI
+material. These repo notices do not modify an already published release archive.
+
 ## Files you need
 
 | File | Purpose |
