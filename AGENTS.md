@@ -1,5 +1,9 @@
 # Publishing rules
 
+Read `README.md` first. This is `miguelemosreverte/mr-pinpin-official`.
+Authoring belongs in `https://github.com/miguelemosreverte/mr-pinpin-source`;
+follow that repository's `PUBLISHING.md` and `tools/publishing/README.md`.
+
 This is a deployment-only repo. Do not add authoring history or site binaries.
 Never edit/delete releases/<sha>.json or rewrite published HF objects. New
 releases add new records; rollback only changes release.json to an existing SHA.
