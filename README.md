@@ -4,19 +4,22 @@ The official published books and interactive atlas. This repository deploys
 verified releases; it is not where stories, illustrations, or application code
 are edited.
 
-**Read:** [Books](https://miguelemosreverte.github.io/mr-pinpin-official/storyboard/library.html)
-| [Atlas](https://miguelemosreverte.github.io/mr-pinpin-official/storyboard/atlas-webgpu.html)
-| [Original book](https://miguelemosreverte.github.io/mr-pinpin-official/)
+**Read:** [Books](https://mr-pinpin.github.io/storyboard/library.html)
+| [Atlas](https://mr-pinpin.github.io/storyboard/atlas-webgpu.html)
+| [Original book](https://mr-pinpin.github.io/)
 
 ## Where to work
 
 | Location | Responsibility |
 | --- | --- |
-| [mr-pinpin-source](https://github.com/miguelemosreverte/mr-pinpin-source) | Edit stories, translations, application code, and artwork provenance. Build and test releases. |
+| [mr-pinpin-source](https://github.com/mr-pinpin/mr-pinpin-source) | Edit stories, translations, application code, and artwork provenance. Build and test releases. |
 | This repository | Select and deploy a verified release. Keep it small: no artwork, video, or archive blobs in Git. |
 | [Public Hugging Face storage](https://huggingface.co/buckets/miguelemosreverte/mr-pinpin-archive) | Preserve originals, production assets, and content-addressed release bundles. |
 
-Start with the source repository's [publishing guide](https://github.com/miguelemosreverte/mr-pinpin-source/blob/main/PUBLISHING.md).
+Start with the source repository's [publishing guide](https://github.com/mr-pinpin/mr-pinpin-source/blob/main/PUBLISHING.md).
+This repository is [mr-pinpin/mr-pinpin.github.io](https://github.com/mr-pinpin/mr-pinpin.github.io).
+Its local checkout remains `/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-official`,
+beside `mr-pinpin-source`; the organization move does not rename either directory.
 
 ## Files you need
 
@@ -42,7 +45,7 @@ site. The command refuses to replace existing output and checks every file.
 ## Publish or roll back
 
 Build, package, upload, and verify from `mr-pinpin-source` using its
-[release CLI](https://github.com/miguelemosreverte/mr-pinpin-source/tree/main/tools/publishing).
+[release CLI](https://github.com/mr-pinpin/mr-pinpin-source/tree/main/tools/publishing).
 Then, from that source checkout:
 
 ```sh
@@ -62,7 +65,9 @@ not provider-enforced write-once retention; checksums detect altered bytes.
 
 ## Previous names
 
-This repository was `mr-pinpin-pages`; the source was `mr-pinpin-original`.
+This repository was `mr-pinpin-pages`, then `mr-pinpin-official`, under
+`miguelemosreverte`; the source was `mr-pinpin-original`. Both now belong to
+the `mr-pinpin` organization.
 GitHub repository links redirect, but old Pages URLs do not automatically
 redirect. Use the official reader links above. Historical release records and
 their source commit IDs remain unchanged and valid.

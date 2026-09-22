@@ -1,7 +1,9 @@
 # Publishing rules
 
-Read `README.md` first. This is `miguelemosreverte/mr-pinpin-official`.
-Authoring belongs in `https://github.com/miguelemosreverte/mr-pinpin-source`;
+Read `README.md` first. This is `mr-pinpin/mr-pinpin.github.io`.
+Canonical readers: `https://mr-pinpin.github.io/`. The local checkout remains
+`/Users/miguel_lemos/anastasia-pinpin-repos/mr-pinpin-official`.
+Authoring belongs in `https://github.com/mr-pinpin/mr-pinpin-source`;
 follow that repository's `PUBLISHING.md` and `tools/publishing/README.md`.
 
 This is a deployment-only repo. Do not add authoring history or site binaries.
